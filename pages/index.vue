@@ -1,11 +1,11 @@
 <template>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+    <div class="container mx-auto p-3">
+        <BannerHome />
+    </div>
 </template>
 
 <script>
 export default {
-  name: 'IndexPage',
+    name: "IndexPage",
 }
 </script>

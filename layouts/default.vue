@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="w-full h-[100px]">
-            <div class="m-0 flex flex-row items-center justify-around p-3">
+            <div class="container mx-auto flex flex-row items-center justify-between p-3">
                 <div class="">
                     <img src="@/static/logo.png" class="w-[80px]" alt="">
                 </div>

@@ -14,6 +14,10 @@ module.exports = {
           primary: '#0B8457',
           secondary: '#29403A',
           other: '#1DA599'
+        },
+        yellow: {
+          primary: '#EAC100',
+          other: '#FFC265'
         }
       }
     },
