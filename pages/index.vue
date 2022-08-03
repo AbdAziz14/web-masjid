@@ -1,6 +1,8 @@
 <template>
-    <div class="">
-        <BannerHome />
+    <div>
+      <BannerHome />
+      <DailyInfo />
+      <GalleryHome />
     </div>
 </template>
 

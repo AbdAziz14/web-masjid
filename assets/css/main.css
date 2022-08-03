@@ -6,12 +6,16 @@
   .btn-primary {
     @apply py-3 px-6 bg-green-other text-white text-sm rounded-lg shadow-md hover:bg-green-primary focus:outline-none focus:ring-2 focus:ring-green-secondary focus:ring-opacity-75;
   }
-
   .btn-secondary {
     @apply py-3 px-6 bg-yellow-other text-black text-sm rounded-[10px] shadow-md hover:bg-yellow-primary focus:outline-none focus:ring-2 focus:ring-green-secondary focus:ring-opacity-75;
   }
-
   .humburger-button {
     @apply p-2 text-black text-sm rounded-full focus:outline-none focus:ring-2 focus:ring-yellow-other focus:ring-opacity-75;
+  }
+  .card-primary {
+    @apply w-full bg-white border border-[#E7E7E7] rounded-[10px] p-5 drop-shadow my-3;
+  }
+  .button-other {
+    @apply border border-[#E7E7E7] rounded-lg p-2 px-5 cursor-pointer hover:bg-green-other hover:text-white
   }
 } 
