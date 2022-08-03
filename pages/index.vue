@@ -1,5 +1,5 @@
 <template>
-    <div class="container mx-auto p-3">
+    <div class="">
         <BannerHome />
     </div>
 </template>
