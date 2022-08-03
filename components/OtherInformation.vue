@@ -1,6 +1,6 @@
 <template>
     <div class="col-span-8 md:col-span-4">
-        <h3 class="font-medium text-xl">Jumat,  12 Agustus 2022 <span class="text-yellow-other text-lg block md:inline">( 9 Muharam 1444)</span></h3>
+        <h3 class="font-medium text-xl">Jumat,  12 Agustus 2022 <span class="text-yellow-other text-lg block">( 9 Muharam 1444)</span></h3>
         <div class="card-primary text-center">
             <label class="font-semibold text-lg">Khatib Jumat</label>
             <img src="https://images.unsplash.com/photo-1627091908405-30bd51eec537?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" class="khatib-image" alt="Khatib jumat">
@@ -24,14 +24,24 @@
                     Tanggal
                 </div>
             </div>
-            <div v-for="n in 2" :key="n">
+            <div>
                 <div class="card-primary hover:bg-green-other hover:text-white cursor-pointer">
                     <div class="flex flex-row justify-between">
                         <div>
-                            Kajian Rutin
+                            Pengajian senin malam
                         </div>
                         <div>
                             08-08-2022
+                        </div>
+                    </div>
+                </div>
+                <div class="card-primary hover:bg-green-other hover:text-white cursor-pointer">
+                    <div class="flex flex-row justify-between">
+                        <div>
+                            Kajian Fiqih
+                        </div>
+                        <div>
+                            10-08-2022
                         </div>
                     </div>
                 </div>
