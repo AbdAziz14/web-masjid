@@ -25,7 +25,6 @@
                 <div class="hidden md:block">
                     <div class="w-auto h-[80vh] bg-no-repeat bg-cover bg-top rounded-tr-[20px] rounded-bl-[20px]" :style="{'background-image': `url(${require('@/static/home/masjid.jpg')})`}">
                     </div>
-                    <!-- <img src="~/static/home/banner.png" class="image-banner" alt="Masjid"> -->
                 </div>
             </div>
         </div>
