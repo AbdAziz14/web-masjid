@@ -16,6 +16,9 @@
     @apply w-full bg-white border border-[#E7E7E7] rounded-[10px] p-5 drop-shadow my-3;
   }
   .button-other {
-    @apply border border-[#E7E7E7] rounded-lg p-2 px-5 cursor-pointer hover:bg-green-other hover:text-white;
+    @apply h-auto border text-center my-auto border-[#E7E7E7] rounded-lg p-2 px-5 cursor-pointer hover:bg-green-other hover:text-white;
+  }
+  .btn-blog {
+    @apply my-5 p-2 inline-block bg-green-other text-white text-xs rounded-lg shadow-md hover:bg-green-primary focus:outline-none focus:ring-2 focus:ring-green-secondary focus:ring-opacity-75;
   }
 } 
