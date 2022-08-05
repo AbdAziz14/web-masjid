@@ -3,6 +3,8 @@
       <BannerHome />
       <DailyInfo />
       <GalleryHome />
+      <BlogHome />
+      <TestimoniHome />
     </div>
 </template>
 
